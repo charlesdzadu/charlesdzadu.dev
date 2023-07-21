@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1 class="text-red-500">{{ $t('welcome') }}</h1>
+		<h1>Good</h1>
 	</div>
 </template>
 
