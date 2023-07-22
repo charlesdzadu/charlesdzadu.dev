@@ -1,7 +1,7 @@
 <template>
 	<LineH></LineH>
 	<div class="px-4 flex justify-between">
-		<div class="flex items-center ">
+		<div class="flex items-center w-[300px] justify-between">
 			<h1 class="px-3">find me in: </h1>
 			<LineV></LineV>
 			<IconsSocial icon="ri-instagram-fill" link="https://instagram.com/charlesdzadu" />
