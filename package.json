@@ -15,5 +15,7 @@
     "@types/node": "^18.16.19",
     "nuxt": "^3.6.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "remixicon": "^3.4.0"
+  }
 }
