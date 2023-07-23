@@ -2,7 +2,7 @@
 module.exports = {
 	theme: {
 		extend: {
-			colors:{
+			colors: {
 				'primary': '#011627',
 				'primary-dark': '#011221',
 				'black-light': '#01080E',
@@ -19,6 +19,6 @@ module.exports = {
 			}
 		},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/forms")],
 }
 

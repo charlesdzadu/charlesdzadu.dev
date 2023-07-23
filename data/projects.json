@@ -1,0 +1,15 @@
+[
+	{
+		"title": "Makifaa",
+		"excerpt": "Africa media stock photography",
+		"description": "A best africa images, photos, vectors stock photography",
+		"link": "https://www.makifaa.com",
+		"image": "https://www.makifaa.com/images/makifaa.png",
+		"screenshot": [],
+		"technology": [
+			"Nuxt JS",
+			"FastAPI",
+			"Firebase"
+		]
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Vue JS",
+		"icon_type": "remixicon",
+		"icon": "ri-vuejs-line",
+		"color": "#4fc08d"
+	},
+	{
+		"name": "Nuxt JS",
+		"icon_type": "remixicon",
+		"icon": "ri-vuejs-line",
+		"color": "#4fc08d"
+	}
+]

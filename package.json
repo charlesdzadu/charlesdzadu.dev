@@ -16,6 +16,7 @@
     "nuxt": "^3.6.5"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.4",
     "remixicon": "^3.4.0"
   }
 }

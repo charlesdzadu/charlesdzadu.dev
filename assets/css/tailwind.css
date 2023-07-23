@@ -11,4 +11,5 @@ body {
 	background-color: #011627;
 	color: #607B96;
 	font-family: 'Fira Code', monospace;
+	scroll-behavior: smooth
 }
