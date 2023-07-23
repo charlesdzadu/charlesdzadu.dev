@@ -22,10 +22,8 @@
 					<a href="https://github.com/charlesdzadu" class="text-white"> <span class="text-purple">const</span> <span class="text-green-light">githubLink</span> = <span class="text-orange">"https://github.com/charlesdzadu"</span> </a>
 				</div>
 			</div>
-			<div>
-				<div class="h-[500px] w-[500px] border">
-
-				</div>
+			<div class="hidden lg:flex">
+				<GamesTicTacToe></GamesTicTacToe>
 			</div>
 		</div>
 	</div>
