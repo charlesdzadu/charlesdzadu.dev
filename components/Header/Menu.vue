@@ -1,6 +1,6 @@
 <template>
+	<HeaderMenuItem title="_hello" link="/" />
+	<HeaderMenuItem title="_about-me" link="/about-me" />
+	<HeaderMenuItem title="_projects" link="/projects" />
 	<LineV></LineV>
-	<HeaderMenuItem title="_hello" :active="true" />
-	<HeaderMenuItem title="_about-me" />
-	<HeaderMenuItem title="_projects" />
 </template>

@@ -1,6 +1,6 @@
 <template>
 	<div class="flex h-full">
-		<a :href=link :title=title class="p-3 text-gray hover:text-white transition-colors">
+		<a :href=link :title=title class="p-4 text-gray hover:text-white transition-colors">
 			<i :class=icon class="ri-lg"></i>
 		</a>
 		<LineV></LineV>

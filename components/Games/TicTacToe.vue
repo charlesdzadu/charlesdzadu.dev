@@ -1,8 +1,16 @@
 <template>
-	<div class="h-[450px] w-[450px]">
-		<div id="tictactoeboard"></div>
-		<div id="gameinfo"></div>
-	</div>
+	<GamesBase>
+		<div v-if="data.gameStarted == true" class="h-[450px] w-[450px]">
+			<div id="tictactoeboard"></div>
+			<div id="gameinfo"></div>
+		</div>
+		<div v-else class="h-[450px] w-[450px] flex justify-center items-center">
+			<button @click="startGame"
+				class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+				Start Game
+			</button>
+		</div>
+	</GamesBase>
 </template>
 
 <script setup>
@@ -11,19 +19,33 @@ let gameboard = ref(null);
 let gameinfo = ref(null);
 let go = "circle";
 
+let data = reactive({
+	gameStarted: false,
+});
 
-onMounted(() => {
-	 gameboard = document.getElementById('tictactoeboard');
-	 gameinfo = document.getElementById('gameinfo');
-	 gameinfo.innerHTML = "Circle goes first";
+
+function startGame() {
+	data.gameStarted = true;
+	// wait for DOM to update
+	setTimeout(() => {
+		initGame();
+	}, 0);
+}
+
+
+function initGame() {
+	gameboard = document.getElementById('tictactoeboard');
+	gameinfo = document.getElementById('gameinfo');
+	gameinfo.innerHTML = "Circle goes first";
 
 	const startCells = [
 		"", "", "", "", "", "", "", "", "",
 	]
 	createBoard(startCells);
-});
+}
 
-function createBoard(cells){
+
+function createBoard(cells) {
 	cells.forEach((_cell, index) => {
 		const newCell = document.createElement('div');
 		newCell.classList.add('ttt-square');
@@ -33,7 +55,7 @@ function createBoard(cells){
 	});
 }
 
-function addGo(e){
+function addGo(e) {
 	const goDisplay = document.createElement('div');
 	goDisplay.classList.add(go);
 	e.target.appendChild(goDisplay);
@@ -43,7 +65,7 @@ function addGo(e){
 	checkWin();
 }
 
-function checkWin(){
+function checkWin() {
 	const squares = Array.from(document.getElementsByClassName('ttt-square'));
 	let winCombos = [
 		[0, 1, 2], [3, 4, 5], [6, 7, 8], // horizontal
@@ -52,16 +74,16 @@ function checkWin(){
 	];
 
 	winCombos.forEach((array) => {
-		const circleWin =  array.every((index) => squares[index].firstChild?.classList.contains("circle"))
-		const crossWin =  array.every((index) => squares[index].firstChild?.classList.contains("cross"))
-		if(circleWin || crossWin){
+		const circleWin = array.every((index) => squares[index].firstChild?.classList.contains("circle"))
+		const crossWin = array.every((index) => squares[index].firstChild?.classList.contains("cross"))
+		if (circleWin || crossWin) {
 			gameinfo.innerHTML = circleWin ? "Circle wins" : "Cross wins";
 			squares.forEach((square) => square.removeEventListener('click', addGo));
 			squares.forEach((square) => square.replaceWith(square.cloneNode(true)));
 			return;
-		}else {
+		} else {
 			const allSquaresFilled = squares.every((square) => square.firstChild);
-			if(allSquaresFilled){
+			if (allSquaresFilled) {
 				gameinfo.innerHTML = "Draw";
 				squares.forEach((square) => square.removeEventListener('click', addGo));
 				squares.forEach((square) => square.replaceWith(square.cloneNode(true)));
@@ -79,15 +101,17 @@ function checkWin(){
 	height: 450px;
 	width: 450px;
 	display: flex;
+	border: 0px solid black;
 	flex-wrap: wrap;
 	box-sizing: border-box;
 }
+
 .ttt-square {
 	width: 150px;
 	height: 150px;
-	border: 2px solid black;
+	border: 1px solid white;
 	display: inline-block;
-	background-color: white;
+	/* background-color: white; */
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
@@ -112,7 +136,8 @@ function checkWin(){
 }
 
 
-.cross::before, .cross::after {
+.cross::before,
+.cross::after {
 	content: "";
 	position: absolute;
 	background-color: #FEA55F;
@@ -131,6 +156,4 @@ function checkWin(){
 	margin-top: -10%;
 	width: 100%;
 }
-
-
 </style>

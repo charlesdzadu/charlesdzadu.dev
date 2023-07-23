@@ -1,11 +1,13 @@
 <template>
-	<a href="">
-		<span class=" px-8 py-3 hover:text-white " :class="{'border-b-2 border-b-orange': active}" >{{title}}</span>
-	</a>
 	<LineV></LineV>
+	<NuxtLink :to="link" class="flex items-center">
+		<span class="px-8 py-3 hover:text-white " :class="{ 'border-b-2 border-b-orange text-white': active }">{{ title }}</span>
+	</NuxtLink>
 </template>
 
 <script setup>
+
+const route = useRoute();
 
 let props = defineProps({
 	title: {
@@ -17,11 +19,11 @@ let props = defineProps({
 		required: false,
 
 	},
-	active : {
-		type: Boolean,
-		required: false,
-		default: false,
-	}
+})
+
+// Make link active if it matches the current route
+let active = computed(() => {
+	return props.link === route.path
 })
 
 

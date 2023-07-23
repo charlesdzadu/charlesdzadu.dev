@@ -1,5 +1,5 @@
 <template>
-	<div class=" w-full h-full flex p-4">
+	<div class="w-full h-full flex p-4">
 		<div class="w-[300px] ">
 
 		</div>
