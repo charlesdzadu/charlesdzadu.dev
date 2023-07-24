@@ -6,7 +6,7 @@ import { Project } from '~/models/project';
 
 
 export function getProjectsList(technos: Technology[]): Project[] {
-	if (!technos) {
+	if (!technos  || technos.length === 0) {
 		const projectsList: Project[] = [];
 		for (const project of projects) {
 			const projectObject = new Project(project.title, project.excerpt, project.image, project.link, project.technology, project.description, project.screenshot);

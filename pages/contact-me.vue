@@ -26,8 +26,7 @@
 				</div>
 				<LineH></LineH>
 				<div class="px-4 py-4 flex flex-col gap-2">
-					<a class="flex gap-2 hover:text-white transition-colors"
-					href="https://twitter.com/charlesdzadu">
+					<a class="flex gap-2 hover:text-white transition-colors" href="https://twitter.com/charlesdzadu">
 						<i class="ri-share-box-line"></i>
 						<span>Twitter</span>
 					</a>
@@ -57,33 +56,34 @@
 
 				<div class="w-full h-full  flex justify-between">
 					<div class="w-5/12 flex justify-center items-center ">
-						<div class="flex flex-col gap-4 w-full px-20">
-							<div class="flex flex-col gap-2">
-								<label for="name">_name: </label>
-								<input type="text" name="name" v-model="data.name"
-									class="w-full h-[50px] border border-line focus:border-gray  rounded-md px-3 bg-primary-dark outline-none transition-all  focus:ring-2 focus:ring-gray focus:ring-opacity-30" />
-							</div>
+						<form action="" class="w-full">
+							<div class="flex flex-col gap-4 w-full px-20">
+								<div class="flex flex-col gap-2">
+									<label for="name">_name: </label>
+									<input type="text" name="name" v-model="data.name"
+										class="w-full h-[50px] border border-line focus:border-gray  rounded-md px-3 bg-primary-dark outline-none transition-all  focus:ring-2 focus:ring-gray focus:ring-opacity-30" />
+								</div>
 
-							<div class="flex flex-col gap-2">
-								<label for="name">_email: </label>
-								<input type="email" name="email" v-model="data.email"
-									class="w-full h-[50px] border border-line focus:border-gray  rounded-md p-3 bg-primary-dark outline-none transition-all  focus:ring-2 focus:ring-gray focus:ring-opacity-30" />
-							</div>
+								<div class="flex flex-col gap-2">
+									<label for="name">_email: </label>
+									<input type="email" name="email" v-model="data.email"
+										class="w-full h-[50px] border border-line focus:border-gray  rounded-md p-3 bg-primary-dark outline-none transition-all  focus:ring-2 focus:ring-gray focus:ring-opacity-30" />
+								</div>
 
-							<div class="flex flex-col gap-2">
-								<label for="name">_message: </label>
-								<textarea name="message" id="" rows="5" v-model="data.message"
-									class="w-full  border border-line focus:border-gray  rounded-md p-3 bg-primary-dark outline-none transition-all  focus:ring-2 focus:ring-gray focus:ring-opacity-30">
+								<div class="flex flex-col gap-2">
+									<label for="name">_message: </label>
+									<textarea name="message" id="" rows="5" v-model="data.message"
+										class="w-full  border border-line focus:border-gray  rounded-md p-3 bg-primary-dark outline-none transition-all  focus:ring-2 focus:ring-gray focus:ring-opacity-30">
 								</textarea>
-							</div>
+								</div>
 
-							<div>
-								<button class="px-5 py-2 bg-line rounded-md hover:text-white transition-colors">
-									send-message
-								</button>
+								<div>
+									<button class="px-5 py-2 bg-line rounded-md hover:text-white transition-colors">
+										send-message
+									</button>
+								</div>
 							</div>
-
-						</div>
+						</form>
 					</div>
 					<LineV></LineV>
 					<div class="w-7/12 flex justify-center items-center ">
