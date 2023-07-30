@@ -2,8 +2,8 @@ version: '3.8'
 services:
   app:
     build: .
-    image: makifaa-app
-    container_name: makifaa-app
+    image: dzadu-app
+    container_name: dzadu-app
     expose:
       - "5000"
     ports:
