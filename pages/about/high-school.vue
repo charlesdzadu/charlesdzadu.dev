@@ -1,5 +1,5 @@
 <template>
-	<AboutBase title="personal-info">
+	<AboutBase title="high-school">
 		<div class="w-full flex justify-start items-start p-6">
 			<div class="flex flex-col">
 				<span><span class="mr-8">1</span>/** </span>

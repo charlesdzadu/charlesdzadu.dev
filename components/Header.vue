@@ -6,7 +6,10 @@
 				<HeaderMenu></HeaderMenu>
 			</div>
 			<div class="flex items-center">
-				<LineV></LineV>
+				<a href="" class="flex p-3 gap-2 items-center">
+					<i class="ri-download-cloud-fill ri-lg"></i>
+					<span>download-cv</span>
+				</a>
 				<HeaderMenuItem title="_contact-me" link="/contact-me" />
 			</div>
 		</div>

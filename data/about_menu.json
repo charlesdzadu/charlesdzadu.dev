@@ -1,15 +1,70 @@
 [
 	{
+		"title": "professional-info",
+		"icon": "ri-terminal-box-fill",
+		"folders": [
+			{
+				"title": "experience",
+				"color": "text-orange",
+				"links": [
+					{
+						"title": "enterprise",
+						"href": "/about/experience-enterprise"
+					}
+				]
+			},
+			{
+				"title": "skills",
+				"color": "text-green-light",
+				"links": [
+					{
+						"title": "frontend",
+						"href": "/about/skills-frontend"
+					},
+					{
+						"title": "backend",
+						"href": "/about/skills-backend"
+					},
+					{
+						"title": "mobile",
+						"href": "/about/skills-mobile"
+					}
+				]
+			},
+			{
+				"title": "certificates",
+				"color": "text-purple",
+				"links": [
+					{
+						"title": "openclassrooms",
+						"href": "/about/certificates-openclassrooms"
+					},
+					{
+						"title": "udemy",
+						"href": "/about/certificates-udemy"
+					}
+				]
+			}
+		]
+	},
+	{
 		"title": "personal-info",
 		"icon": "ri-user-4-fill",
 		"folders": [
 			{
 				"title": "bio",
-				"color": "text-orange-dark"
+				"color": "text-orange",
+				"links": [
+					{
+						"title": "personal-info",
+						"href": "/about/personal-info"
+					}
+				]
 			},
 			{
 				"title": "interests",
-				"color": "text-green-light"
+				"color": "text-green-light",
+				"links": []
 			},
 			{
 				"title": "education",
@@ -22,6 +77,42 @@
 					{
 						"title": "university",
 						"href": "/about/university"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "hobbies-info",
+		"icon": "ri-gamepad-fill",
+		"folders":[
+			{
+				"title": "musics",
+				"color": "text-blue-dark",
+				"links": [
+					{
+						"title": "works-playlists",
+						"href": "/about/works-playlists"
+					}
+				]
+			},
+			{
+				"title": "books",
+				"color": "text-orange",
+				"links": [
+					{
+						"title": "already-reads",
+						"href": "/about/already-reads"
+					}
+				]
+			},
+			{
+				"title": "games",
+				"color": "text-green-light",
+				"links": [
+					{
+						"title": "have-to-try",
+						"href": "/about/games-have-to-try"
 					}
 				]
 			}
