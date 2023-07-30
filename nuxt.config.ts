@@ -16,9 +16,5 @@ export default defineNuxtConfig({
 	plugins: [
 		{ src: '~/plugins/remixicon', mode: 'client' },
 	],
-	app: {
-
-	}
-
 
 })

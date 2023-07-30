@@ -30,5 +30,6 @@ COPY --from=build /app/package.json ./package.json
 
 EXPOSE 5001
 
+ENV PORT=5001
 
 CMD ["node", "./.output/server/index.mjs"]
