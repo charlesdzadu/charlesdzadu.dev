@@ -10,11 +10,11 @@
 				<div class="px-4 py-5 flex flex-col gap-2">
 					<a class="flex gap-2 hover:text-white transition-colors" href="mailto:hello@charlesdzadu.dev">
 						<i class="ri-mail-fill"></i>
-						<span>hello@charlesdzadu.dev</span>
+						<span>charles@dzadu.dev</span>
 					</a>
 					<a class="flex gap-2 hover:text-white transition-colors" href="tel:+22892569918">
 						<i class="ri-phone-fill"></i>
-						<span>(228) 92 56 99 18</span>
+						<span>(228)92569918</span>
 					</a>
 				</div>
 			</div>

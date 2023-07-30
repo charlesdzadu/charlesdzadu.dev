@@ -1,0 +1,30 @@
+[
+	{
+		"title": "personal-info",
+		"icon": "ri-user-4-fill",
+		"folders": [
+			{
+				"title": "bio",
+				"color": "text-orange-dark"
+			},
+			{
+				"title": "interests",
+				"color": "text-green-light"
+			},
+			{
+				"title": "education",
+				"color": "text-blue-dark",
+				"links": [
+					{
+						"title": "high-school",
+						"href": "/about/high-school"
+					},
+					{
+						"title": "university",
+						"href": "/about/university"
+					}
+				]
+			}
+		]
+	}
+]

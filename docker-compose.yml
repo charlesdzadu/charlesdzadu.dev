@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    image: makifaa-app
+    container_name: makifaa-app
+    expose:
+      - "5000"
+    ports:
+      - "5000:5000"
