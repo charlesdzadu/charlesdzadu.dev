@@ -28,7 +28,7 @@ COPY --from=build /app/package.json ./package.json
 
 
 
-EXPOSE 5000
+EXPOSE 5001
 
 
 CMD ["node", "./.output/server/index.mjs"]
