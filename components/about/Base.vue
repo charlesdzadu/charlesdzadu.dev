@@ -11,7 +11,7 @@
 				<slot> </slot>
 				<div class="flex">
 					<LineV></LineV>
-					<div class="h-3 w-[40px] bg-gray m-2"></div>
+					<div class="h-[6px] w-[20px] bg-gray m-1"></div>
 					<LineV></LineV>
 				</div>
 				<div class="w-full flex justify-start items-start p-6">

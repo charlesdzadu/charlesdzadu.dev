@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.4",
+    "highlight.js": "^11.8.0",
     "remixicon": "^3.4.0"
   }
 }
