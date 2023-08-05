@@ -7,16 +7,7 @@
 					<h2>projects</h2>
 				</div>
 				<LineH></LineH>
-				<div class="px-4 py-5 flex flex-col gap-2">
-					<div class="flex gap-4 items-center" v-for="tech in technos" :key="tech.icon">
-						<input type="checkbox" @change="addTechno(tech)"
-							class="h-5 w-5 focus:ring-primary bg-transparent border focus:border-none rounded-sm checked:bg-gray focus:bg-gray" />
-						<div class="flex gap-1 items-center">
-							<i :class="tech.icon"></i>
-							<span>{{ tech.name }}</span>
-						</div>
-					</div>
-				</div>
+				<CustomProjectsTechnoList />
 			</div>
 		</SidebarBase>
 		<div class="w-full ">
@@ -27,6 +18,12 @@
 					<LineV></LineV>
 				</div>
 				<LineH class="hidden lg:flex "></LineH>
+				<div class="p-5  flex lg:hidden">
+					<p>_projects</p>
+				</div>
+				<CustomAccordion title="projects" class="flex lg:hidden">
+					<CustomProjectsTechnoList />
+				</CustomAccordion>
 				<div class="w-full h-full p-5 lg:p-20">
 					<div class="w-full h-full  grid grid-cols-1  lg:grid-cols-3 gap-10">
 						<div class="flex flex-col " v-for="project in projects">

@@ -1,15 +1,15 @@
 <template>
 	<div class="w-full ">
 		<div class="flex flex-col h-full">
-			<div class="flex justify-start items-center gap-5 pl-4">
+			<div class="hidden lg:flex justify-start items-center gap-5 pl-4 ">
 				<h2 class="py-3">{{title}}</h2>
 				<i class="ri-close-line"></i>
-				<LineV></LineV>
+				<LineV ></LineV>
 			</div>
-			<LineH></LineH>
-			<div class="w-full h-full  flex justify-between">
+			<LineH class="hidden lg:flex"></LineH>
+			<div class="w-full h-full   flex flex-col lg:flex-row justify-start lg:justify-between">
 				<slot> </slot>
-				<div class="flex">
+				<div class="hidden lg:flex ">
 					<LineV></LineV>
 					<div class="h-[6px] w-[20px] bg-gray m-1"></div>
 					<LineV></LineV>
