@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full  flex">
-		<SidebarBase>
+		<SidebarBase class="hidden lg:flex">
 			<div class="flex flex-col ">
 				<div class="flex justify-start items-center gap-3 py-3 text-white pl-4">
 					<i class="ri-arrow-down-s-fill"></i>
@@ -21,14 +21,14 @@
 		</SidebarBase>
 		<div class="w-full ">
 			<div class="flex flex-col h-full">
-				<div class="flex justify-start items-center gap-5 pl-2">
+				<div class="hidden lg:flex justify-start items-center gap-5 pl-2 ">
 					<h2 class="py-3">all</h2>
 					<i class="ri-close-line"></i>
 					<LineV></LineV>
 				</div>
-				<LineH></LineH>
-				<div class="w-full h-full p-20">
-					<div class="w-full h-full  grid grid-cols-3 gap-10">
+				<LineH class="hidden lg:flex "></LineH>
+				<div class="w-full h-full p-5 lg:p-20">
+					<div class="w-full h-full  grid grid-cols-1  lg:grid-cols-3 gap-10">
 						<div class="flex flex-col " v-for="project in projects">
 							<div class="flex gap-4">
 								<span class="text-orange">Makifaa</span>

@@ -6,5 +6,6 @@
 			<slot> </slot>
 		</div>
 		<Footer class="hidden lg:flex"></Footer>
+		<MobileFooter class="flex lg:hidden"></MobileFooter>
 	</main>
 </template>

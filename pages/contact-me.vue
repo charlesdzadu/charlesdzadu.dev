@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full  flex">
-		<SidebarBase>
+		<SidebarBase class="hidden lg:flex">
 			<div class="flex flex-col ">
 				<div class="flex justify-start items-center gap-3 py-3 text-white pl-4">
 					<i class="ri-arrow-down-s-fill"></i>
@@ -47,17 +47,17 @@
 		</SidebarBase>
 		<div class="w-full ">
 			<div class="flex flex-col h-full">
-				<div class="flex justify-start items-center gap-5 pl-4">
+				<div class="hidden lg:flex justify-start items-center gap-5 pl-4">
 					<h2 class="py-3">contact-form</h2>
 					<i class="ri-close-line"></i>
 					<LineV></LineV>
 				</div>
-				<LineH></LineH>
+				<LineH class="hidden lg:flex"></LineH>
 
 				<div class="w-full h-full  flex justify-between">
-					<div class="w-5/12 flex justify-center items-center ">
+					<div class="w-full lg:w-5/12 flex justify-center items-start lg:items-center ">
 						<form action="" class="w-full">
-							<div class="flex flex-col gap-4 w-full px-20">
+							<div class="flex flex-col gap-4 w-full px-8 lg:px-20">
 								<div class="flex flex-col gap-2">
 									<label for="name">_name: </label>
 									<input type="text" name="name" v-model="data.name"
@@ -86,7 +86,7 @@
 						</form>
 					</div>
 					<LineV></LineV>
-					<div class="w-7/12 flex justify-center items-center ">
+					<div class="hidden lg:flex w-7/12 justify-center items-center ">
 						<div class="flex flex-col  w-full px-20">
 							<div>
 								<span class="number">1</span> <span class="text-purple">const</span> <span
