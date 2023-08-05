@@ -2,7 +2,7 @@
 	<div class="flex flex-col">
 		<div class="flex justify-between">
 			<div class="px-4 flex items-center">
-				<a href="" class=" hover:text-white transition-colors  w-[300px]">charles-dzadu</a>
+				<NuxtLink to="/" class=" hover:text-white transition-colors  w-[300px]">charles-dzadu</NuxtLink>
 				<HeaderMenu></HeaderMenu>
 			</div>
 			<div class="flex items-center">
