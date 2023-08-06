@@ -23,6 +23,7 @@
 				</template>
 			</CustomAccordion>
 		</template>
+		<CustomAccordion title="contacts"></CustomAccordion>
 	</div>
 </template>
 

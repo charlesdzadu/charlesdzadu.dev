@@ -8,7 +8,7 @@
 					<LineV></LineV>
 					<IconsSocial icon="ri-instagram-fill" link="https://instagram.com/charlesdzadu" />
 					<IconsSocial icon="ri-twitter-x-fill" link="https://twitter.com/charlesdzadu" />
-					<IconsSocial icon="ri-linkedin-fill" link="https://linkedin.com/charlesdzadu" />
+					<IconsSocial icon="ri-linkedin-fill" link="https://linkedin.com/in/charlesdzadu" />
 					<IconsSocial icon="ri-github-fill" link="https://github.com/charlesdzadu" />
 				</div>
 			</div>

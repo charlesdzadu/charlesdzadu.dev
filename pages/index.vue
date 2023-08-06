@@ -6,6 +6,7 @@
 		<div class="flex justify-center items-center gap-24 px-5">
 			<div>
 				<div class="flex flex-col gap-3">
+
 					<h2 class="text-white">Hi all. I am</h2>
 					<h1 class="text-6xl text-white leading-tight">Charles DZADU</h1>
 					<h3 class="text-green-light lg:text-purple text-xl lg:text-2xl flex "> <span>> </span> <span
@@ -37,5 +38,6 @@
 </template>
 
 <script setup>
+
 
 </script>
