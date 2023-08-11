@@ -26,19 +26,20 @@
 				</div>
 				<LineH></LineH>
 				<div class="px-4 py-4 flex flex-col gap-2">
+					<a class="flex gap-2 hover:text-white transition-colors" href="https://linkedin.com/in/charlesdzadu">
+						<i class="ri-share-box-line"></i>
+						<span>LinkedIn</span>
+					</a>
 					<a class="flex gap-2 hover:text-white transition-colors" href="https://twitter.com/charlesdzadu">
 						<i class="ri-share-box-line"></i>
 						<span>Twitter</span>
 					</a>
-					<a class="flex gap-2 hover:text-white transition-colors" href="">
-						<i class="ri-share-box-line"></i>
-						<span>Youtube</span>
-					</a>
-					<a class="flex gap-2 hover:text-white transition-colors" href="">
+
+					<a class="flex gap-2 hover:text-white transition-colors" href="https://instagram.com/charlesdzadu">
 						<i class="ri-share-box-line"></i>
 						<span>Instagram</span>
 					</a>
-					<a class="flex gap-2 hover:text-white transition-colors" href="">
+					<a class="flex gap-2 hover:text-white transition-colors" href="https://github.com/charlesdzadu">
 						<i class="ri-share-box-line"></i>
 						<span>Github</span>
 					</a>
@@ -158,6 +159,14 @@ let data = reactive({
 	message: '',
 	date: '',
 })
+
+
+useSeoMeta({
+	title: 'Contact me',
+	description: 'Do you have any questions?',
+	keywords: 'contact, questions, email, message, form',
+})
+
 </script>
 
 <style>

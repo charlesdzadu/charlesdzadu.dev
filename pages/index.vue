@@ -39,5 +39,14 @@
 
 <script setup>
 
+useSeoMeta({
+	title: "Software Engineer, UX/UI Designer from Togo",
+	description: "I am a Software Engineer, UX/UI Designer from Togo. I am passionate about building excellent software that improves the lives of those around me.",
+	url: "https://dzadu.dev",
+	keywords: "Nuxt, Vue, Tailwind, TailwindCSS, TailwindUI, JavaScript, TypeScript, Node, Express, MongoDB, MySQL, PostgreSQL, Docker, Kubernetes, AWS, GCP, Firebase, Git, GitHub, GitLab, BitBucket, Agile, Scrum, Kanban, CI/CD, DevOps, TDD, BDD, REST, GraphQL, Microservices, Serverless, Web, Mobile, iOS, Android, React, React Native, Redux, MobX, Relay, Angular, NgRx, Vue, Vuex, Ember, Next, Gatsby, JAMstack, PWA, AMP, Ionic, Electron, Storybook, Styled Components, CSS-in-JS, Material UI, Ant Design, Bootstrap, Foundation, Semantic UI, Tailwind, TailwindCSS, TailwindUI, HTML5, CSS3, Webpack, Rollup, Babel, Gulp, Grunt, Browserify, Yeoman, npm, Yarn, Bower, BrowserSync, ESLint, Prettier, Stylelint, WebSockets, SocketIO, Highcharts, D3, Canvas, WebGL, WebRTC, WebAssembly, Progressive Web Apps, AMP, Accelerated Mobile Pages, SEO, Performance, Responsive, Accessibility, Internationalization, Localization, i18n, l10n, A/B Testing, Analytics, Tag Manager, Hotjar, Optimizely, Fullstory, Mixpanel, Segment, Amplitude, Google Analytics, Google Tag Manager, Hotjar, Optimizely, Fullstory, Mixpanel, Segment, Amplitude, Google Analytics, Google Tag Manager",
+	ogUrl: "https://dzadu.dev",
+	ogImage: "https://dzadu.dev/favicon.ico",
+})
+
 
 </script>
