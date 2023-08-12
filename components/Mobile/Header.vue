@@ -23,7 +23,6 @@ const data = reactive({
 
 
 const toggleMobileMenu = () => {
-	console.log(data.mobileMenu)
 	data.mobileMenu = !data.mobileMenu
 }
 </script>

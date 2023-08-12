@@ -26,14 +26,13 @@
 				</CustomAccordion>
 				<div class="w-full h-full p-5 lg:p-20">
 					<div class="w-full h-full  grid grid-cols-1  lg:grid-cols-3 gap-10">
-						<div class="flex flex-col " v-for="project in projects">
+						<div class="flex flex-col " v-for="project in projectsStore.projects">
 							<div class="flex gap-4">
-								<span class="text-orange">Makifaa</span>
-								<span>//_web_application</span>
+								<span class="text-orange">{{ project.title }}</span>
+								<span>//{{ project.category }}</span>
 							</div>
 							<div class="rounded-md border border-line mt-3">
-								<div class="h-32 w-full bg-primary-dark rounded-md">
-
+								<div class="h-40 w-full bg-primary-dark rounded-md">
 								</div>
 								<div class="p-5">
 									<p class="text-gray-500 pb-4">{{ project.description }}</p>
@@ -51,26 +50,12 @@
 
 
 <script setup lang="ts">
-import { getTechnosList } from '@/utils/get_technos_list'
-import { getProjectsList } from '@/utils/get_projects_list'
-import { Technology } from 'models/technology';
 
+import { useProjectsStore } from '~/stores/projects'
 
-let data = reactive({
-	selectedTechnos: [] as Technology[],
-})
+const projectsStore = useProjectsStore()
+projectsStore.initProjects()
 
-const technos = computed(() => getTechnosList())
-const projects = computed(() => getProjectsList(data.selectedTechnos))
-
-
-const addTechno = (techno: Technology) => {
-	if (data.selectedTechnos.includes(techno)) {
-		data.selectedTechnos = data.selectedTechnos.filter((t) => t !== techno)
-	} else {
-		data.selectedTechnos.push(techno)
-	}
-}
 
 useSeoMeta({
 	title: 'Projects',

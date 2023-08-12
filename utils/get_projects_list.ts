@@ -5,24 +5,25 @@ import { Project } from '~/models/project';
 
 
 
-export function getProjectsList(technos: Technology[]): Project[] {
-	if (!technos  || technos.length === 0) {
-		const projectsList: Project[] = [];
+export function getProjectsList(technos?: Technology[]): Project[] {
+	const projectsList: Project[] = [];
+
+	if (!technos || technos.length === 0) {
+		projectsList.length = 0;
 		for (const project of projects) {
-			const projectObject = new Project(project.title, project.excerpt, project.image, project.link, project.technology, project.description, project.screenshot);
-			projectsList.push(projectObject);
+			projectsList.push(project);
 		}
-		return projectsList;
+
 	} else {
-		const projectsList: Project[] = [];
+		projectsList.length = 0;
 		for (const project of projects) {
 			for (const techno of technos) {
 				if (project.technology.includes(techno.name)) {
-					const projectObject = new Project(project.title, project.excerpt, project.image, project.link, project.technology, project.description, project.screenshot);
-					projectsList.push(projectObject);
+					projectsList.push(project);
 				}
 			}
 		}
-		return projectsList;
 	}
+
+	return projectsList;
 }

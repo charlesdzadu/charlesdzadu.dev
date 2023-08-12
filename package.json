@@ -17,8 +17,10 @@
     "nuxt-gtag": "^0.5.7"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
     "@tailwindcss/forms": "^0.5.4",
     "highlight.js": "^11.8.0",
+    "pinia": "^2.1.6",
     "remixicon": "^3.5.0"
   }
 }

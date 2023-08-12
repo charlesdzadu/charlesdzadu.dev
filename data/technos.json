@@ -10,5 +10,29 @@
 		"icon_type": "remixicon",
 		"icon": "ri-vuejs-line",
 		"color": "#4fc08d"
+	},
+	{
+		"name": "Firebase",
+		"icon_type": "remixicon",
+		"icon": "ri-fire-fill",
+		"color": "#4fc08d"
+	},
+	{
+		"name": "Flutter",
+		"icon_type": "remixicon",
+		"icon": "ri-flutter-fill",
+		"color": "#4fc08d"
+	},
+	{
+		"name": "UX/UI Design",
+		"icon_type": "remixicon",
+		"icon": "ri-pencil-ruler-fill",
+		"color": "#4fc08d"
+	},
+	{
+		"name": "Laravel",
+		"icon_type": "remixicon",
+		"icon": "ri-delete-column",
+		"color": "#4fc08d"
 	}
 ]

@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 				lang: 'fr'
 			},
 			charset: 'utf-8',
-			titleTemplate: '%s  Charles DZADU',
+			titleTemplate: '%s - Charles DZADU',
 
 			viewport: 'width=device-width, initial-scale=1',
 			link: [
@@ -35,6 +35,7 @@ export default defineNuxtConfig({
 		'@nuxtjs/tailwindcss',
 		'@nuxtjs/i18n',
 		'nuxt-gtag',
+		'@pinia/nuxt',
 	],
 	gtag: {
 		id: process.env.GTAG_ID,
