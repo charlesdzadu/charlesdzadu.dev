@@ -7,24 +7,77 @@
 		"link": "https://www.makifaa.com",
 		"image": "https://www.makifaa.com/images/makifaa.png",
 		"screenshot": [],
-		"technology": [
+		"technologies": [
 			"Nuxt JS",
 			"FastAPI",
-			"Firebase"
+			"Firebase",
+			"DevOps"
 		]
 	},
 	{
 		"title": "Ufami Group",
-		"category": "_mobile_application",
+		"category": "_web_mobile_application",
 		"excerpt": "Ecommerce mobile application",
 		"description": "A first Ecommerce mobile application in Ivory Coast with staggered payment",
 		"link": "https://play.google.com/store/apps/details?id=com.ufami.general&pli=1",
 		"image": "https://www.makifaa.com/images/makifaa.png",
 		"screenshot": [],
-		"technology": [
+		"technologies": [
 			"Flutter",
 			"Laravel",
 			"Firebase"
+		]
+	},
+	{
+		"title": "Klumer",
+		"category": "_mobile_application",
+		"excerpt": "Event Social Network mobile application",
+		"description": "A social network mobile application to share your events with your friends and buy tickets",
+		"link": "https://play.google.com/store/apps/details?id=com.eodscom.klumer",
+		"image": "https://www.makifaa.com/images/makifaa.png",
+		"screenshot": [],
+		"technologies": [
+			"Flutter",
+			"Laravel",
+			"Firebase"
+		]
+	},
+	{
+		"title": "Awari",
+		"category": "_mobile_application",
+		"excerpt": "Tourism mobile application",
+		"description": "A tourism mobile application to discover and plan your trip in Africa",
+		"link": "https://play.google.com/store/apps/details?id=com.awari.assobrydg",
+		"image": "https://www.makifaa.com/images/makifaa.png",
+		"screenshot": [],
+		"technologies": [
+			"Flutter",
+			"Express JS",
+			"Firebase"
+		]
+	},
+	{
+		"title": "CISL Togo",
+		"category": "_website",
+		"excerpt": "CISL Togo School website",
+		"description": "Canadian International School of Lome website to present their courses, their activities",
+		"link": "https://cisl-togo.com/",
+		"image": "https://www.makifaa.com/images/makifaa.png",
+		"screenshot": [],
+		"technologies": [
+			"Wordpress"
+		]
+	},
+	{
+		"title": "IAEC Togo",
+		"category": "_website",
+		"excerpt": "IAEC Togo University website",
+		"description": "Official website of IAEC Togo University to present their courses, their activities  ",
+		"link": "https://iaectogo.com/",
+		"image": "https://www.makifaa.com/images/makifaa.png",
+		"screenshot": [],
+		"technologies": [
+			"Wordpress"
 		]
 	}
 ]

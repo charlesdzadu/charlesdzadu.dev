@@ -5,7 +5,7 @@ export class Project {
 		public excerpt: string,
 		public link: string,
 		public image: string,
-		public technology: string[],
+		public technologies: string[],
 		public description?: string,
 		public screenshot?: string[],
 

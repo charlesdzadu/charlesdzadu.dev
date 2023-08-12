@@ -24,7 +24,7 @@
 				<CustomAccordion title="projects" class="flex lg:hidden">
 					<CustomProjectsTechnoList />
 				</CustomAccordion>
-				<div class="w-full h-full p-5 lg:p-20">
+				<div class="w-full h-full p-5 lg:p-8">
 					<div class="w-full h-full  grid grid-cols-1  lg:grid-cols-3 gap-10">
 						<div class="flex flex-col " v-for="project in projectsStore.projects">
 							<div class="flex gap-4">
@@ -36,7 +36,7 @@
 								</div>
 								<div class="p-5">
 									<p class="text-gray-500 pb-4">{{ project.description }}</p>
-									<a href="" class="px-5 py-2 bg-line text-sm rounded-md ">view-project</a>
+									<a :href="project.link" target="_blank" class="px-5 py-2 bg-line text-sm rounded-md ">view-project</a>
 								</div>
 							</div>
 						</div>

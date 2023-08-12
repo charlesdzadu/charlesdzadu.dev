@@ -43,6 +43,10 @@
 						<i class="ri-share-box-line"></i>
 						<span>Github</span>
 					</a>
+					<a class="flex gap-2 hover:text-white transition-colors" href="https://calendly.com/charles-dzadu">
+						<i class="ri-share-box-line"></i>
+						<span>Calendly</span>
+					</a>
 				</div>
 			</div>
 		</SidebarBase>
@@ -57,7 +61,7 @@
 
 				<div class="w-full h-full  flex justify-between">
 					<div class="w-full lg:w-5/12 flex justify-center items-start lg:items-center ">
-						<form action="" class="w-full">
+						<form action="https://formspree.io/f/xzbleakr" method="POST" class="w-full">
 							<div class="flex flex-col gap-4 w-full px-8 lg:px-20">
 								<div class="flex flex-col gap-2">
 									<label for="name">_name: </label>
@@ -79,7 +83,8 @@
 								</div>
 
 								<div>
-									<button class="px-5 py-2 bg-line rounded-md hover:text-white transition-colors">
+									<button type="submit"
+										class="px-5 py-2 bg-line rounded-md hover:text-white transition-colors">
 										send-message
 									</button>
 								</div>

@@ -1,11 +1,5 @@
 [
 	{
-		"name": "Vue JS",
-		"icon_type": "remixicon",
-		"icon": "ri-vuejs-line",
-		"color": "#4fc08d"
-	},
-	{
 		"name": "Nuxt JS",
 		"icon_type": "remixicon",
 		"icon": "ri-vuejs-line",
@@ -24,6 +18,18 @@
 		"color": "#4fc08d"
 	},
 	{
+		"name": "Express JS",
+		"icon_type": "remixicon",
+		"icon": "ri-javascript-fill",
+		"color": "#4fc08d"
+	},
+	{
+		"name": "DevOps",
+		"icon_type": "remixicon",
+		"icon": "ri-git-branch-fill",
+		"color": "#4fc08d"
+	},
+	{
 		"name": "UX/UI Design",
 		"icon_type": "remixicon",
 		"icon": "ri-pencil-ruler-fill",
@@ -33,6 +39,12 @@
 		"name": "Laravel",
 		"icon_type": "remixicon",
 		"icon": "ri-delete-column",
+		"color": "#4fc08d"
+	},
+	{
+		"name": "Wordpress",
+		"icon_type": "remixicon",
+		"icon": "ri-wordpress-fill",
 		"color": "#4fc08d"
 	}
 ]

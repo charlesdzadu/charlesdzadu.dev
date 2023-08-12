@@ -18,7 +18,7 @@ export function getProjectsList(technos?: Technology[]): Project[] {
 		projectsList.length = 0;
 		for (const project of projects) {
 			for (const techno of technos) {
-				if (project.technology.includes(techno.name)) {
+				if (project.technologies.includes(techno.name)) {
 					projectsList.push(project);
 				}
 			}

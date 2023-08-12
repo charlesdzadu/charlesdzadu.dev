@@ -4,7 +4,7 @@
 
 		<!-- <button @click.self="testfuntion">charles</button> -->
 		<MobileHeader class="flex lg:hidden"></MobileHeader>
-		<div class="grow">
+		<div class="grow ">
 			<slot> </slot>
 		</div>
 		<Footer class="hidden lg:flex"></Footer>
