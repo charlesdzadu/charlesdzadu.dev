@@ -10,7 +10,7 @@
 					<h2 class="text-white">Hi all. I am</h2>
 					<h1 class="text-6xl text-white leading-tight">Charles DZADU</h1>
 					<h3 class="text-green-light lg:text-purple text-xl lg:text-2xl flex "> <span>> </span> <span
-							class="pl-4 leading-tight">Fullstack Developper, UX/UI
+							class="pl-4 leading-tight">Software Engineer, UX/UI
 							Designer</span></h3>
 				</div>
 				<div class="h-40 lg:h-48">
@@ -31,7 +31,8 @@
 				</div>
 			</div>
 			<div class="hidden lg:flex">
-				<GamesTicTacToe></GamesTicTacToe>
+				<!-- <GamesTicTacToe></GamesTicTacToe> -->
+				<GamesGlobe3D></GamesGlobe3D>
 			</div>
 		</div>
 	</div>

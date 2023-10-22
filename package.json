@@ -21,6 +21,7 @@
     "@tailwindcss/forms": "^0.5.4",
     "highlight.js": "^11.8.0",
     "pinia": "^2.1.6",
-    "remixicon": "^3.5.0"
+    "remixicon": "^3.5.0",
+    "three": "^0.157.0"
   }
 }
