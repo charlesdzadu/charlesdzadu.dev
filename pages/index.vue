@@ -31,8 +31,8 @@
 				</div>
 			</div>
 			<div class="hidden lg:flex">
-				<!-- <GamesTicTacToe></GamesTicTacToe> -->
-				<GamesGlobe3D></GamesGlobe3D>
+				<GamesTicTacToe></GamesTicTacToe>
+				<!-- <GamesGlobe3D></GamesGlobe3D> -->
 			</div>
 		</div>
 	</div>
