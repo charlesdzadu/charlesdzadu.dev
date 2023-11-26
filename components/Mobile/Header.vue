@@ -3,7 +3,7 @@
 		<div class=" flex justify-between p-5 items-center">
 			<NuxtLink to="/" class=" hover:text-white transition-colors">charles-dzadu</NuxtLink>
 
-			<button @click="openCalendly">_contact_me</button>
+			<a href="https://calendly.com/charles-dzadu/talk-about-projects">_contact_me</a>
 			<!-- <button @click.native="toggleMobileMenu">
 				<i class=" ri-xl transition-all"
 					:class="{ 'ri-close-fill': data.mobileMenu, 'ri-menu-fill': data.mobileMenu == false }"></i>
@@ -24,10 +24,7 @@ const data = reactive({
 })
 
 
-const openCalendly = () => {
-	Calendly.initPopupWidget({ url: 'https://calendly.com/charles-dzadu/talk-about-projects' });
-	return false;
-}
+
 
 
 const toggleMobileMenu = () => {
