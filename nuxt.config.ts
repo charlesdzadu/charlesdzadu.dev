@@ -16,11 +16,23 @@ export default defineNuxtConfig({
 				{ rel: 'apple-touche-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
 				{ rel: 'manifest', href: '/site.webmanifest' },
 				{ rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#c07313' },
+				{
+                    rel: 'stylesheet',
+                    href: 'https://assets.calendly.com/assets/external/widget.css',
+                },
 			],
 			meta: [
 				{ name: 'msapplication-TileColor', content: '#ffffff' },
 				{ name: 'theme-color', content: '#ffffff' },
-			]
+			],
+			script: [
+				{
+                    src: 'https://assets.calendly.com/assets/external/widget.js',
+                    async: true,
+                    type: 'text/javascript',
+                },
+			],
+
 
 		}
 

@@ -13,7 +13,7 @@
 							class="pl-4 leading-tight">Software Engineer, UX/UI
 							Designer</span></h3>
 				</div>
-				<div class="h-40 lg:h-48">
+				<div class="h-32 lg:h-48">
 
 				</div>
 				<div>
@@ -24,7 +24,7 @@
 					<div class="flex lg:hidden">
 						<span>// Find my profile on github</span>
 					</div>
-					<br>
+					<!-- <br> -->
 					<a href="https://github.com/charlesdzadu" class="text-white"> <span class="text-purple">const </span>
 						<span class="text-green-light">githubLink</span> = <span
 							class="text-orange">"https://github.com/charlesdzadu"</span> </a>
